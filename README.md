@@ -33,4 +33,4 @@ $ sudo cp ./docker-compose-linux-x86_64 /usr/bin/docker-compose
 ```bash
   cd ./inception && sudo make
 ```
-### For the full explanation of the project, you can check out my Medium blog [Medium blog](https://medium.com/@afatir.ahmedfatir/unveiling-42-the-network-inception-a-dive-into-docker-and-docker-compose-cfda98d9f4ac) for the complete details.
+### For the full explanation of the project, you can check out my [Medium blog](https://medium.com/@afatir.ahmedfatir/unveiling-42-the-network-inception-a-dive-into-docker-and-docker-compose-cfda98d9f4ac) for the complete details.
