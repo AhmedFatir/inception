@@ -10,7 +10,7 @@ echo "alias zshi='sh /install.sh'" >> ~/.zshrc
 #---------------------------------------------------mariadb ping---------------------------------------------------#
 
 ping_mariadb_container() {
-    ping -c 1 mariadb > /dev/null
+    nc -zv mariadb 3306 > /dev/null
     return $?
 }
 start_time=$(date +%s)
@@ -41,7 +41,7 @@ chmod -R 755 /var/www/wordpress/
 chown -R www-data:www-data /var/www/wordpress
 
 check_core_files() {
-    wp core is-installed > /dev/null
+    wp core is-installed --allow-root > /dev/null
     return $?
 }
 if ! check_core_files; then
