@@ -1,5 +1,5 @@
-WP_DATA = /home/afatir/data/wordpress
-DB_DATA = /home/afatir/data/mariadb
+WP_DATA = /Users/afatir/goinfre/data/wordpress
+DB_DATA = /Users/afatir/goinfre/data/mariadb
 
 all: up
 
