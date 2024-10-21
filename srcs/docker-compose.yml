@@ -28,9 +28,9 @@ services:
     build: ./requirements/mariadb
     volumes:
       - mariadb:/var/lib/mysql
-    env_file :
+    env_file:
       - .env
-    networks :
+    networks:
       - inception
     restart: always
 #nginx
@@ -56,7 +56,7 @@ services:
       - mariadb
     volumes:
       - wordpress:/var/www/wordpress
-    env_file :
+    env_file:
       - .env
     networks:
       - inception
