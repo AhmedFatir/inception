@@ -41,7 +41,7 @@ $ sudo cp ./docker-compose-linux-x86_64 /usr/bin/docker-compose
 # Use the rsync command to copy the Docker data directory to the new location
 rsync -a ~/Library/Containers/com.docker.docker ~/goinfre/DockerData
 
-#Rename the original directory as a backup in case you need to revert
+#Rename the original directory as a backup if you need to revert
 mv ~/Library/Containers/com.docker.docker ~/Library/Containers/com.docker.docker.backup
 
 #Create a symbolic link from the new location back to the original location
