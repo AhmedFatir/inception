@@ -34,14 +34,14 @@ $ sudo cp ./docker-compose-linux-x86_64 /usr/bin/docker-compose
 ```bash
   cd ./inception && sudo make
 ```
-## if you are a 42 student and want to run this project on the school's Mac, you may need to change the path where Docker Desktop on Mac stores its data.
+## if you are a 42 student who wants to run this project on the school's Mac, you may need to change the path where Docker Desktop stores its data.
 ```bash
-# Make sure Docker Desktop is not running.
+# Make sure the Docker Desktop is not running.
 
 # Use the rsync command to copy the Docker data directory to the new location
 rsync -a ~/Library/Containers/com.docker.docker ~/goinfre/DockerData
 
-#Rename the original directory as a backup, just in case you need to revert
+#Rename the original directory as a backup in case you need to revert
 mv ~/Library/Containers/com.docker.docker ~/Library/Containers/com.docker.docker.backup
 
 #Create a symbolic link from the new location back to the original location
