@@ -7,6 +7,8 @@ This setup allows for scalable, efficient, and portable development and deployme
 
 ## For the full explanation of the project, you can check out my [Medium blog](https://medium.com/@afatir.ahmedfatir/unveiling-42-the-network-inception-a-dive-into-docker-and-docker-compose-cfda98d9f4ac) for the complete details.
 
+![](https://github.com/AhmedFatir/AhmedFatir/blob/master/images/Inception.png)
+
 ## Key Features
 ### MariaDB:
 A robust and reliable open-source relational database management system.
